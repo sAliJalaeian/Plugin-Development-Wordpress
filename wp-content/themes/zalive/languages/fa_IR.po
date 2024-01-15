@@ -1,0 +1,691 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zAlive\n"
+"POT-Creation-Date: 2023-01-07 17:56+0330\n"
+"PO-Revision-Date: 2023-01-07 19:06+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:13 functions.php:143
+msgid "Error 404,Page Not Found"
+msgstr "خطای 404، صفحه یافت نشد"
+
+#: 404.php:15
+msgid ""
+"We&rsquo;re sorry but the page is not existed or deleted by the "
+"administrator. Perhaps searching can help."
+msgstr ""
+"شرمنده، اما صفحه ای که شما دنبالشی یا وجود نداره یا توسط مدیر حذف شده، شاید "
+"جستجو تو سایت بتونه کمکتون کنه "
+
+#: 404.php:18
+msgid "Or you may want to : "
+msgstr "یا شما بخواهید: "
+
+#: 404.php:19
+msgid "Back to Home "
+msgstr "برگشت به خانه "
+
+#: comments.php:13
+#, php-format
+msgid "Only 1 comment left"
+msgid_plural "There are %1$s comments left"
+msgstr[0] "%1$s دیدگاه گذاشته شده"
+msgstr[1] "فقط یک دیدگاه گذاشته شده "
+
+#: comments.php:17
+msgctxt "go to comment"
+msgid "Go To Comment"
+msgstr "رفتن به دیدگاه"
+
+#: comments.php:27
+msgid "Comment Pagination: "
+msgstr "صفحه بندی دیدگاه: "
+
+#: comments.php:28 index.php:32
+msgid "Previous Page"
+msgstr "صفحه قبلی"
+
+#: comments.php:28 index.php:33
+msgid "Next Page"
+msgstr "صفحه بعد"
+
+#: comments.php:37 comments.php:48
+msgid "Comment is closed."
+msgstr "دیدگاه بسته شده. "
+
+#: functions.php:15
+msgid "Top Nav Menu"
+msgstr "منوی ناوبری بالا"
+
+#: functions.php:16
+msgid "Footer Custom Links"
+msgstr "لینک های سفارشی فوتر"
+
+#: functions.php:20
+msgid "Primary Sidebar"
+msgstr "سایدبار اصلی"
+
+#: functions.php:29 template/options.php:198 template/options.php:211
+msgid "Secondary Sidebar"
+msgstr "سایدبار ثانویه"
+
+#: functions.php:79
+#, php-format
+msgid "Page %s"
+msgstr "صفحه %s"
+
+#: functions.php:92
+msgid "You are here"
+msgstr "شما اینجا هستید"
+
+#: functions.php:133
+#, php-format
+msgid "Posts with tag [ <strong> %s </strong> ] "
+msgstr "پست ها با تگ [ <strong> %s </strong> ] "
+
+#: functions.php:138
+#, php-format
+msgid "Search result for [ <strong> %s </strong> ] "
+msgstr "نتیجه جستجو برای [ <strong> %s </strong> ] "
+
+#: functions.php:149
+#, php-format
+msgid "Posts from author [ <strong> %s </strong> ] "
+msgstr "پست ها با نویسندگی [ <strong> %s </strong> ] "
+
+#: functions.php:154
+msgid "Y/m/d"
+msgstr ""
+
+#: functions.php:156
+#, php-format
+msgid "Daily archives for <strong> %s </strong>"
+msgstr "آرشیو روزانه برای <strong> %s </strong>"
+
+#: functions.php:161
+msgid "Y/m"
+msgstr ""
+
+#: functions.php:163
+#, php-format
+msgid "Monthly archives for <strong> %s </strong>"
+msgstr "آرشیو ماهانه برای <strong> %s </strong>"
+
+#: functions.php:168
+msgid "Y"
+msgstr ""
+
+#: functions.php:170
+#, php-format
+msgid "Yearly archives for <strong> %s </strong>"
+msgstr "آرشیو سالانه برای <strong> %s </strong>"
+
+#: functions.php:184
+msgid "Untitled Post"
+msgstr "پست بی نام"
+
+#: functions.php:256 template/entry-meta-primary-page.php:14
+#: template/entry-meta-primary.php:13
+#, php-format
+msgid "1 Comment"
+msgid_plural "%s Comments"
+msgstr[0] "1 دیدگاه"
+msgstr[1] "%s دیدگاه"
+
+#: functions.php:284
+msgid "Search Widget From zAlive"
+msgstr "ابزارک جستجو از زیلایو"
+
+#: functions.php:285
+msgid "Search(zAlive)"
+msgstr "جستجو(زیلایو)"
+
+#: functions.php:294 template/header.php:46
+msgid "Type and search..."
+msgstr "تایپ کنید و جستجو کنید..."
+
+#: functions.php:294 functions.php:303 template/header.php:47
+msgid "Search"
+msgstr "جستجو"
+
+#: functions.php:307 functions.php:349 functions.php:396 functions.php:437
+#: functions.php:603
+msgid "Title"
+msgstr "عنوان"
+
+#: functions.php:317
+msgid "Recent Comments Widget From zAlive"
+msgstr "ابزارک دیدگاه های اخیر از زیلایو"
+
+#: functions.php:318
+msgid "Recent Comments(zAlive)"
+msgstr "دیدگاه های اخیر(زیلایو)"
+
+#: functions.php:342 sidebar.php:13
+msgid "Recent Comments"
+msgstr "دیدگاه های اخیر"
+
+#: functions.php:352
+msgid "Comments Count"
+msgstr "تعداد دیدگاه"
+
+#: functions.php:355
+msgid "Avatar Size"
+msgstr "اندازه آواتار"
+
+#: functions.php:358
+msgid "Maximum Count Of Comment Characters"
+msgstr "حداکثر تعداد کاراکتر دیدگاه"
+
+#: functions.php:368
+msgid "Most Commented Posts Widget From zAlive"
+msgstr "ابزارک پست با بیشترین دیدگاه از زیلایو"
+
+#: functions.php:369
+msgid "Most Commented Posts(zAlive)"
+msgstr "پست با بیشترین دیدگاه(زیلایو)"
+
+#: functions.php:391
+msgid "Most Commented Posts"
+msgstr "پست با بیشترین دیدگاه"
+
+#: functions.php:399 functions.php:440
+msgid "Post Count"
+msgstr "تعداد پست"
+
+#: functions.php:409
+msgid "Random Posts Widget From zAlive"
+msgstr "ابزارک پست تصادفی از زیلایو"
+
+#: functions.php:410
+msgid "Random Posts(zAlive)"
+msgstr "پست تصادفی(زیلایو)"
+
+#: functions.php:432 functions.php:483
+msgid "Random Posts"
+msgstr "پست تصادفی"
+
+#: functions.php:450
+msgid "Most Commented & Random Posts Widget From zAlive (with tab switch )"
+msgstr "ابزارک پست با بیشترین دیدگاه و پست تصادفی از زیلایو(با سوییچ تب)"
+
+#: functions.php:451
+msgid "Most Commented & Random Posts(zAlive)"
+msgstr "پست با بیشترین دیدگاه و پست تصادفی(زیلایو)"
+
+#: functions.php:483
+msgctxt "Most Commented Posts"
+msgid "Most Commented"
+msgstr "پست های توصیه شده"
+
+#: functions.php:490
+msgid "Title(Most Commented Posts)"
+msgstr "عنوان(پست های با بیشترین دیدگاه)"
+
+#: functions.php:493
+msgid "Count(Most Commented Posts)"
+msgstr "تعداد(پست با بیشترین دیدگاه)"
+
+#: functions.php:496
+msgid "Title(Random Posts)"
+msgstr "عنوان(پست تصادفی)"
+
+#: functions.php:499
+msgid "Count(Random Posts)"
+msgstr "تعداد(پست تصادفی)"
+
+#: functions.php:509
+msgid "Social Links Widget From zAlive"
+msgstr "ابزارک لینک شبکه های اجتماعی از زیلایو"
+
+#: functions.php:510
+msgid "Social Links(zAlive)"
+msgstr "لینک شبکه های اجتماعی(زیلایو)"
+
+#: functions.php:515 functions.php:606
+msgid "Contact Email"
+msgstr "ایمیل ارتباطی"
+
+#: functions.php:516 functions.php:609
+msgid "RSS"
+msgstr ""
+
+#: functions.php:517 functions.php:612
+msgid "Twitter"
+msgstr "توییتر"
+
+#: functions.php:518 functions.php:615
+msgid "Facebook"
+msgstr "فیسبوک"
+
+#: functions.php:519 functions.php:618
+msgid "Google Plus"
+msgstr "گوگل پلاس"
+
+#: functions.php:520 functions.php:621
+msgid "YouTube"
+msgstr "یوتیوب"
+
+#: functions.php:521 functions.php:624
+msgid "Linkedin"
+msgstr "لینکدین"
+
+#: functions.php:522 functions.php:627
+msgid "Pinterest"
+msgstr "پینترست"
+
+#: functions.php:523 functions.php:630
+msgid "Myspace"
+msgstr "ما اسپیس"
+
+#: functions.php:524 functions.php:633
+msgid "deviantART"
+msgstr ""
+
+#: functions.php:525 functions.php:636
+msgid "Flickr"
+msgstr "فلیکر"
+
+#: functions.php:526 functions.php:639
+msgid "SoundCloud"
+msgstr "سوندکلود"
+
+#: functions.php:527 functions.php:642
+msgid "Vimeo"
+msgstr "ویمئو"
+
+#: functions.php:528 functions.php:645
+msgid "Tumblr"
+msgstr ""
+
+#: functions.php:529 functions.php:648
+msgid "Orkut"
+msgstr ""
+
+#: functions.php:530 functions.php:651
+msgid "VKontakte"
+msgstr ""
+
+#: functions.php:531 functions.php:654
+msgid "Weibo"
+msgstr ""
+
+#: functions.php:728
+msgid "Go Top"
+msgstr "رفتن به بالا"
+
+#: functions.php:748
+msgid "Pingback: "
+msgstr "بازتاب:"
+
+#. translators: 1: date, 2: time
+#: functions.php:755 functions.php:783
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s در %2$s"
+
+#: functions.php:758
+msgid "(Edit)"
+msgstr "(ویرایش)"
+
+#: functions.php:778
+msgid "Post Author"
+msgstr "نویسنده پست"
+
+#: functions.php:789
+msgid "Your comment is awaiting moderation."
+msgstr "دیدگاه شما در انتظار بررسی است"
+
+#: functions.php:798
+msgid "Edit"
+msgstr "ویرایش"
+
+#: functions.php:799
+msgid "Reply"
+msgstr "پاسخ"
+
+#: functions.php:963 template/options.php:8
+msgid "zAlive Theme Settings"
+msgstr "تنظیمات قالب زیلایو"
+
+#: functions.php:963
+msgid "Theme Options"
+msgstr "تنظیمات قالب"
+
+#: functions.php:976
+msgid "All settings will be set to default.Do you want to restore anyway ?"
+msgstr ""
+"تمام تنظیمات به مقدار پیشفرض برمیگردد. در هر صورت میخواهید بازگردانی کنید؟"
+
+#: page.php:19 template/content.php:13 template/page-full-width.php:17
+msgid "Pages: "
+msgstr "برگه ها:"
+
+#: reply.php:12
+msgid "Leave a Reply"
+msgstr "دیدگاه بگذارید"
+
+#: reply.php:13
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "یک پاسخ به %s بدهید"
+
+#: reply.php:14
+msgid "Cancle Reply"
+msgstr "انصراف از پاسخ"
+
+#: reply.php:15
+msgctxt "submit comment"
+msgid "Post Comment"
+msgstr "ارسال دیدگاه"
+
+#: reply.php:17
+msgctxt "noun"
+msgid "Comment"
+msgstr "دیدگاه"
+
+#: reply.php:23
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "برای ارسال دیدگاه باید <a href=\"%s\">وارد سایت شوید</a>"
+
+#: reply.php:29
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"شما به عنوان <a href=\"%1$s\">%2$s</a> وارد ساید شده اید.<a href=\"%3$s\" "
+"title=\"Log out of this account\">خارج می شوید؟</a>"
+
+#: reply.php:43
+msgid "Name"
+msgstr "نام"
+
+#: reply.php:43 reply.php:48
+msgid "required"
+msgstr "ضروری"
+
+#: reply.php:48
+msgid "Email"
+msgstr "ایمیل"
+
+#: reply.php:54
+msgid "Website"
+msgstr "وبسایت"
+
+#: template/content-none.php:8
+msgid "Nothing found"
+msgstr "چیزی یافت نشد"
+
+#: template/content-none.php:11
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "آماده انتشار اولین پست هستید؟<a href=\"%1$s\">شروع کنید</a>."
+
+#: template/content-none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with "
+"different keywords."
+msgstr ""
+"شرمنده، با جستحوی شما نتیجه ای یافت نشد. لطفا با کلیدواژه دیگری امتحان کنید"
+
+#: template/content-none.php:16
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template/entry-meta-primary-page.php:9 template/entry-meta-primary.php:9
+msgid "Author: "
+msgstr "نویسنده: "
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "No comment yet"
+msgstr "هیچ دیدگاهی ارسال نشده است"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "% Comments"
+msgstr "% دیدگاه"
+
+#: template/entry-meta-primary-page.php:14 template/entry-meta-primary.php:13
+msgid "Comments Off"
+msgstr "دیدگاه غیرفعال"
+
+#: template/entry-meta-secondary.php:8
+msgid "Posted in"
+msgstr "ارسال شده در  "
+
+#: template/entry-meta-secondary.php:12
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: template/entry-meta-tertiary.php:9
+msgid "Short URL for this post : "
+msgstr "لینک کوتاه برای این پست: "
+
+#: template/entry-meta-tertiary.php:11
+msgid "URL for this post : "
+msgstr "آدرس اینترنتی برای این پست: "
+
+#: template/options.php:10
+msgid "All settings saved."
+msgstr "تمام تنظیمات ذخیره شد "
+
+#: template/options.php:18
+msgid "General"
+msgstr "عمومی"
+
+#: template/options.php:21
+msgid "Open Comment Author Link In New Window"
+msgstr ""
+
+#: template/options.php:22 template/options.php:26 template/options.php:30
+#: template/options.php:50 template/options.php:64 template/options.php:68
+#: template/options.php:72 template/options.php:76 template/options.php:80
+#: template/options.php:90 template/options.php:204
+msgid "Enable"
+msgstr "فعال"
+
+#: template/options.php:25
+msgid "Enable zAlive WP-PageNavi Style"
+msgstr ""
+
+#: template/options.php:29
+msgid "Automatic Excerpt In List Page"
+msgstr "چکیدخ خودکار در لیست صفحه"
+
+#: template/options.php:33
+msgid "Automatic Excerpt Length(in word)"
+msgstr "طول چکیده خودکار(به کلمه)"
+
+#: template/options.php:37
+msgid "Text for \"Read More\""
+msgstr "متن برای «بیشتر بخوانید»"
+
+#: template/options.php:41
+msgid "Advertisement Code(in content page)"
+msgstr "کد تبلیغات(در محتوای صفحه)"
+
+#: template/options.php:46
+msgid "Layout"
+msgstr "چیدمان"
+
+#: template/options.php:49
+msgid "Hide Posts List And Primary Sidebar In Homepage"
+msgstr "مخفی کردن لیست پست ها و سایدبار اصلی در صفحه خانه"
+
+#: template/options.php:53
+msgid "Primary Sidebar Layout"
+msgstr "چیدمان سایدبار اصلی"
+
+#: template/options.php:56
+msgid "Shown On The Right"
+msgstr "نمایش سمت راست"
+
+#: template/options.php:57
+msgid "Shown On The Left"
+msgstr "نمایش سمت چپ"
+
+#: template/options.php:58
+msgid "Hidden"
+msgstr "مخفی"
+
+#: template/options.php:63
+msgid "Show Tagline Directly"
+msgstr ""
+
+#: template/options.php:67
+msgid "Header Searchbox"
+msgstr "باکس جستجوی هدر"
+
+#: template/options.php:71
+msgid "Breadcrumb(Path) Navigation"
+msgstr "مسیر ناوربری خرده نان"
+
+#: template/options.php:75
+msgid "Show \"GoTop\" When Scrolling"
+msgstr "نمایش «رفتن به بالا» در زمان اسکرول"
+
+#: template/options.php:79
+msgid "Show Post URL In Post Page"
+msgstr "نمایش آدرس پست در برگه پست"
+
+#: template/options.php:84
+msgid "Slider"
+msgstr "اسلایدر"
+
+#: template/options.php:87 template/options.php:201
+msgid "Enable Or Not"
+msgstr "فعال بودن یا نبودن"
+
+#: template/options.php:91 template/options.php:205
+msgid "Enable In Home Page"
+msgstr "فعالسازی در صفحه خانه"
+
+#: template/options.php:92 template/options.php:206
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: template/options.php:97
+msgid "Pause Time(in millisecond)"
+msgstr "زمان وقفه(به میلی ثانیه)"
+
+#: template/options.php:101 template/options.php:125 template/options.php:149
+#: template/options.php:173
+#, php-format
+msgid "Slider%s Image"
+msgstr "تصویر اسلایدر %s"
+
+#: template/options.php:109 template/options.php:133 template/options.php:157
+#: template/options.php:181
+msgid "Select Image"
+msgstr "انتخاب تصویر"
+
+#: template/options.php:109 template/options.php:133 template/options.php:157
+#: template/options.php:181
+msgid "or enter the image URL here"
+msgstr "یا یک آدرس اینترنتی تصویر وارد کنید"
+
+#: template/options.php:113 template/options.php:137 template/options.php:161
+#: template/options.php:185
+#, php-format
+msgid "Slider%s Title"
+msgstr "عنوان اسلایدر %s"
+
+#: template/options.php:117 template/options.php:141 template/options.php:165
+#: template/options.php:189
+#, php-format
+msgid "Slider%s Content"
+msgstr "محتوای اسلایدر %s"
+
+#: template/options.php:121 template/options.php:145 template/options.php:169
+#: template/options.php:193
+#, php-format
+msgid "Slider%s Link URL"
+msgstr "آدرس لینک اسلایدر %s"
+
+#: template/options.php:212
+msgid ""
+"Set in : <code>&nbsp;WordPress Admin > Appearance > Widgets&nbsp;</code>"
+msgstr ""
+
+#: template/options.php:216
+msgid "Footer"
+msgstr "فوتر"
+
+#: template/options.php:219
+msgid "Copyright Text"
+msgstr "متن حق نشر"
+
+#: template/options.php:223
+msgid "Custom Links"
+msgstr "لینک های سفارشی"
+
+#: template/options.php:224
+msgid "Set in : <code>&nbsp;WordPress Admin > Appearance > Menus&nbsp;</code>"
+msgstr ""
+
+#: template/options.php:228
+msgid "Custom CSS Styles And Scripts"
+msgstr "استایل سفارشی Css و اسکریپت ها"
+
+#: template/options.php:231
+msgid "Custom CSS Style"
+msgstr "استایل Css سفارشی"
+
+#: template/options.php:235
+msgid "Header Custom Scripts"
+msgstr "اسکریپت سفارشی هدر"
+
+#: template/options.php:239
+msgid "Footer Custom Scripts"
+msgstr "اسکریپت سفارشی فوتر"
+
+#: template/options.php:244
+msgid "Save Changes"
+msgstr "ذخیره تنظیمات"
+
+#: template/options.php:245
+msgid "Restore Defaults"
+msgstr "بازگردانی به مقدار پیشفرض"
+
+#. Theme Name of the plugin/theme
+msgid "zAlive"
+msgstr "زلایو"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.zenoven.com/themes/zAlive"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"zAlive is a responsive two columns theme with green and black color. With "
+"rich options you can custom the slider, excerpt, advertisement code,primary "
+"sidebar layout, copyright, nav menu, CSS style, scripts and more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "zenoven"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.zenoven.com/"
+msgstr ""

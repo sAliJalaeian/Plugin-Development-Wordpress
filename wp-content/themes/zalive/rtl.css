@@ -1,0 +1,78 @@
+
+body{
+    direction: rtl;
+    text-align: right;
+}
+
+body,button, h1, h2, h3, h4, h5, h6, input, #zSlider .description strong{
+    font-family: IRANSans;
+}
+
+.entry-meta .info-icon {
+    float: right;
+}
+
+.gotocomment{
+    float:left;
+}
+
+.navbar .brand a {
+    font-weight: 500;
+}
+
+.comments-area p {
+    line-height: 200%;
+}
+
+p.comment-form-comment textarea, p.comment-form-comment input {
+    width: 100% !important;
+    border-radius: 8px;
+}
+
+.row-fluid [class*="span"] {
+    float: none;
+}
+
+
+#content {
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.entry-meta .info-icon {
+    position: relative;
+    background: none;
+    padding-right: 23px;
+    padding-left: 0;
+}
+
+.entry-meta .info-icon:before {
+    content: "";
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background: url('img/sp.png') no-repeat;
+    right: 0;
+}
+
+
+.info-icon.author:before {
+    background-position: 0 -192px;
+}
+
+.info-comment.info-icon:before {
+    background-position: 0 -95px;
+}
+
+.widget a {
+    line-height: 200%;
+}
+
+.entry-thumbnail {
+    float: right;
+    margin: 10px 0 0 10px;
+}
+
+.entry-content .more-link {
+    float: left;
+}
