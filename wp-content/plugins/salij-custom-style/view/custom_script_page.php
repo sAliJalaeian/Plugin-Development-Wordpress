@@ -1,1 +1,6 @@
-<h1>Custom Script</h1>
+<?php
+defined('ABSPATH') || exit;
+global $title;
+?>
+
+<h1><?php echo $title; ?></h1>
