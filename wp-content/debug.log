@@ -1009,3 +1009,50 @@ Stack trace:
 [18-Jan-2024 09:51:54 UTC] PHP   2. require_once() C:\xampp\htdocs\plugindev\wp-admin\admin.php:239
 [18-Jan-2024 09:51:54 UTC] PHP   3. require() C:\xampp\htdocs\plugindev\wp-admin\admin-header.php:258
 [18-Jan-2024 09:51:54 UTC] PHP   4. _wp_menu_output($menu = [2 => [0 => 'پیشخوان', 1 => 'read', 2 => 'index.php', 3 => '', 4 => 'menu-top menu-top-first menu-icon-dashboard menu-top-last', 5 => 'menu-dashboard', 6 => 'dashicons-dashboard'], 4 => [0 => '', 1 => 'read', 2 => 'separator1', 3 => '', 4 => 'wp-menu-separator'], 5 => [0 => 'دیدگاه‌ها <span class="awaiting-mod count-0"><span class="pending-count" aria-hidden="true">0</span><span class="comments-in-moderation-text screen-reader-text">0 دیدگاه در حالت رسیدگی</span></span>', 1 => 'edit_posts', 2 => 'edit-comments.php', 3 => '', 4 => 'menu-top menu-icon-comments menu-top-first', 5 => 'menu-comments', 6 => 'dashicons-admin-comments'], 10 => [0 => 'رسانه', 1 => 'upload_files', 2 => 'upload.php', 3 => '', 4 => 'menu-top menu-icon-media', 5 => 'menu-media', 6 => 'dashicons-admin-media'], 20 => [0 => 'برگه‌ها', 1 => 'edit_pages', 2 => 'edit.php?post_type=page', 3 => '', 4 => 'menu-top menu-icon-page', 5 => 'menu-pages', 6 => 'dashicons-admin-page'], 25 => [0 => 'نوشته‌ها', 1 => 'edit_posts', 2 => 'edit.php', 3 => '', 4 => 'menu-top menu-icon-post open-if-no-js menu-top-last', 5 => 'menu-posts', 6 => 'dashicons-admin-post'], 59 => [0 => '', 1 => 'read', 2 => 'separator2', 3 => '', 4 => 'wp-menu-separator'], 60 => [0 => 'نمایش', 1 => 'switch_themes', 2 => 'themes.php', 3 => '', 4 => 'menu-top menu-icon-appearance menu-top-first', 5 => 'menu-appearance', 6 => 'dashicons-admin-appearance'], 65 => [0 => 'افزونه‌ها <span class="update-plugins count-1"><span class="plugin-count">1</span></span>', 1 => 'activate_plugins', 2 => 'plugins.php', 3 => '', 4 => 'menu-top menu-icon-plugins', 5 => 'menu-plugins', 6 => 'dashicons-admin-plugins'], 67 => [0 => 'استایل سفارشی', 1 => 'read', 2 => 'salij-custom-style', 3 => 'استایل سفارشی', 4 => 'menu-top toplevel_page_salij-custom-style', 5 => 'toplevel_page_salij-custom-style', 6 => 'none'], 70 => [0 => 'کاربران', 1 => 'list_users', 2 => 'users.php', 3 => '', 4 => 'menu-top menu-icon-users', 5 => 'menu-users', 6 => 'dashicons-admin-users'], 75 => [0 => 'ابزارها', 1 => 'edit_posts', 2 => 'tools.php', 3 => '', 4 => 'menu-top menu-icon-tools', 5 => 'menu-tools', 6 => 'dashicons-admin-tools'], 80 => [0 => 'تنظیمات', 1 => 'manage_options', 2 => 'options-general.php', 3 => '', 4 => 'menu-top menu-icon-settings menu-top-last', 5 => 'menu-settings', 6 => 'dashicons-admin-settings']], $submenu = ['index.php' => [0 => [...], 10 => [...]], 'upload.php' => [5 => NULL, 10 => [...], 0 => [...]], 'edit.php' => [5 => [...], 10 => [...], 15 => [...], 16 => [...]], 'edit.php?post_type=page' => [5 => [...], 10 => [...]], 'themes.php' => [5 => [...], 6 => [...], 7 => [...], 10 => [...], 20 => [...], 21 => [...], 22 => [...], 23 => [...]], 'plugins.php' => [5 => [...], 10 => [...], 15 => [...]], 'users.php' => [5 => [...], 10 => [...], 15 => [...]], 'tools.php' => [5 => [...], 10 => [...], 15 => [...], 20 => [...], 25 => [...], 30 => [...]], 'options-general.php' => [10 => [...], 15 => [...], 20 => [...], 25 => [...], 30 => [...], 40 => [...], 45 => [...]], 'salij-custom-style' => [0 => [...], 1 => [...]]], $submenu_as_parent = *uninitialized*) C:\xampp\htdocs\plugindev\wp-admin\menu-header.php:298
+[26-Jan-2024 21:08:13 UTC] PHP Notice: A feed could not be found at `http://planet.wp-persian.com/feed/`; the status code is `403` and content-type is `application/octet-stream` in C:\xampp\htdocs\plugindev\wp-includes\class-simplepie.php on line 1787
+[26-Jan-2024 21:10:23 UTC] PHP Warning:  یک خطای غیرمنتظره رخ داد. ممکن است مشکل از WordPress.org یا تنظیمات سرویس‌دهنده شما باشد. اگر کماکان این مشکلات ادامه داشت، لطفا سری به <a href="https://fa.wordpress.org/support/forums/">انجمن‌های پشتیبانی</a> بزنید. (وردپرس نتوانست ارتباطی امن با سایت WordPress.org برقرار کند. لطفاً با مدیر سرور خود تماس بگیرید.) in C:\xampp\htdocs\plugindev\wp-includes\update.php on line 724
+[27-Jan-2024 19:05:42 UTC] PHP Notice: A feed could not be found at `http://planet.wp-persian.com/feed/`; the status code is `403` and content-type is `application/octet-stream` in C:\xampp\htdocs\plugindev\wp-includes\class-simplepie.php on line 1787
+[28-Jan-2024 17:02:59 UTC] PHP Notice: A feed could not be found at `http://planet.wp-persian.com/feed/`; the status code is `403` and content-type is `application/octet-stream` in C:\xampp\htdocs\plugindev\wp-includes\class-simplepie.php on line 1787
+[28-Jan-2024 17:06:34 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php on line 3 and at least 2 expected in C:\xampp\htdocs\plugindev\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php(3): add_action('')
+#1 C:\xampp\htdocs\plugindev\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\plugindev\wp-config.php(103): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\plugindev\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\plugindev\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\plugindev\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\plugindev\wp-includes\plugin.php on line 441
+[28-Jan-2024 17:06:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php on line 3 and at least 2 expected in C:\xampp\htdocs\plugindev\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php(3): add_action('')
+#1 C:\xampp\htdocs\plugindev\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\plugindev\wp-config.php(103): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\plugindev\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\plugindev\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\plugindev\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\plugindev\wp-includes\plugin.php on line 441
+[28-Jan-2024 17:06:52 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php on line 3 and at least 2 expected in C:\xampp\htdocs\plugindev\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php(3): add_action('')
+#1 C:\xampp\htdocs\plugindev\wp-settings.php(611): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\plugindev\wp-config.php(103): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\plugindev\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\plugindev\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\plugindev\wp-includes\plugin.php on line 441
+[28-Jan-2024 17:08:53 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_theme_support(), 0 passed in C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php on line 4 and exactly 1 expected in C:\xampp\htdocs\plugindev\wp-includes\theme.php:2647
+Stack trace:
+#0 C:\xampp\htdocs\plugindev\wp-content\themes\WpShow\functions.php(4): add_theme_support()
+#1 C:\xampp\htdocs\plugindev\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\xampp\htdocs\plugindev\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\plugindev\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\plugindev\wp-settings.php(621): do_action('after_setup_the...')
+#5 C:\xampp\htdocs\plugindev\wp-config.php(103): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\plugindev\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\plugindev\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\plugindev\wp-includes\theme.php on line 2647
+[28-Jan-2024 17:37:36 UTC] PHP Warning:  یک خطای غیرمنتظره رخ داد. ممکن است مشکل از WordPress.org یا تنظیمات سرویس‌دهنده شما باشد. اگر کماکان این مشکلات ادامه داشت، لطفا سری به <a href="https://fa.wordpress.org/support/forums/">انجمن‌های پشتیبانی</a> بزنید. (وردپرس نتوانست ارتباطی امن با سایت WordPress.org برقرار کند. لطفاً با مدیر سرور خود تماس بگیرید.) in C:\xampp\htdocs\plugindev\wp-includes\update.php on line 443
+[28-Jan-2024 17:38:00 UTC] PHP Warning:  یک خطای غیرمنتظره رخ داد. ممکن است مشکل از WordPress.org یا تنظیمات سرویس‌دهنده شما باشد. اگر کماکان این مشکلات ادامه داشت، لطفا سری به <a href="https://fa.wordpress.org/support/forums/">انجمن‌های پشتیبانی</a> بزنید. (وردپرس نتوانست ارتباطی امن با سایت WordPress.org برقرار کند. لطفاً با مدیر سرور خود تماس بگیرید.) in C:\xampp\htdocs\plugindev\wp-includes\update.php on line 443
